@@ -26,7 +26,6 @@ export default function Answer({}: Props): ReactElement {
   } catch (e) {
     return <div></div>;
   }
-
   return (
     <div className={WorkSans.className}>
       <ToastContainer></ToastContainer>
@@ -37,7 +36,6 @@ export default function Answer({}: Props): ReactElement {
     </div>
   );
 }
-
 export function getStaticProps() {
   return {
     props: {
