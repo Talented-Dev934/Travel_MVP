@@ -11,9 +11,7 @@ export default function Preferences({}: Props): ReactElement {
       <div className="absolute z-50 top-16 left-1/2 isolate -translate-x-1/2 sm:p-4">
         <Logo></Logo>
       </div>
-
       <Background></Background>
-
       <ToastContainer />
       <div className="h-full w-full grid place-items-center bg-transparent">
         <SearchBoxForLocation></SearchBoxForLocation>
