@@ -13,7 +13,6 @@ import Logo from "@/components/Logo";
 import BackButton from "@/components/Preference/BackButton";
 export default function Home() {
   const { isLoading } = useAppState();
-
   return (
     <div className="h-screen m-0 p-0   relative z-50 isolate bg-black">
       <ToastContainer />
